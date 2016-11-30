@@ -4,13 +4,14 @@
     android:id="@+id/content_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.application.myfinal.MainActivityFragment"
     tools:showIn="@layout/activity_main">
 
     <GridView
+        android:id="@+id/movies_gv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:numColumns="2"
-        android:id="@+id/movies_gv" />
+        android:numColumns="4" />
 
 </RelativeLayout>

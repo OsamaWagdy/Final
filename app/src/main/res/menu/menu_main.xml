@@ -3,8 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.application.myfinal.MainActivity">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/popular"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="Most Popular"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/rated"
+        android:orderInCategory="100"
+        android:title="Highest Rated"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/fav"
+        android:orderInCategory="100"
+        android:title="Favourite"
+        app:showAsAction="never" />
+
 </menu>

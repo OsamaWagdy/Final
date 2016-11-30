@@ -12,6 +12,46 @@ public class Movies {
     private String Title;
     private String Voteavg;
     private String Releasedate;
+    private String ID;
+    private String TrailerName;
+    private String TrailerSrc;
+    private String ReviewAuthor;
+    private String ReviewContent;
+
+    public String getReviewContent() {
+        return ReviewContent;
+    }
+
+    public void setReviewContent(String reviewContent) {
+        ReviewContent = reviewContent;
+    }
+
+    public String getReviewAuthor() {
+
+        return ReviewAuthor;
+    }
+
+    public void setReviewAuthor(String reviewAuthor) {
+        ReviewAuthor = reviewAuthor;
+    }
+
+    public String getTrailerSrc() {
+
+        return TrailerSrc;
+    }
+
+    public void setTrailerSrc(String trailerSrc) {
+        TrailerSrc = trailerSrc;
+    }
+
+    public String getTrailerName() {
+
+        return TrailerName;
+    }
+
+    public void setTrailerName(String trailerName) {
+        TrailerName = trailerName;
+    }
 
     public String getReleasedate() {
         return Releasedate;
@@ -21,9 +61,18 @@ public class Movies {
         Releasedate = releasedate;
     }
 
+    public String getID() {
+        return ID;
+    }
+
+    public void setID(String ID) {
+        this.ID = ID;
+    }
+
     public String getVoteavg() {
 
         return Voteavg;
+
     }
 
     public void setVoteavg(String voteavg) {
